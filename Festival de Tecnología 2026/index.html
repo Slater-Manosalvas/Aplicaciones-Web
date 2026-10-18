@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Tecnología 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Festival de Tecnología 2026</h1>
+        <button id="menu-btn">☰ Menú</button>
+        
+        <nav id="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre el Evento</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido al futuro</h2>
+            <p>Únete a nosotros para explorar las últimas tendencias en desarrollo de software e inteligencia artificial.</p>
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80" alt="Personas en una conferencia">
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre el Evento</h2>
+            <p>El Festival de Tecnología es una iniciativa académica diseñada para conectar a estudiantes y profesionales.</p>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda Destacada</h2>
+            <label for="filtro">Buscar charla:</label>
+            <input type="text" id="filtro" placeholder="Ej: JavaScript...">
+            
+            <div class="tarjetas-container">
+                <article class="tarjeta">
+                    <h3>Introducción a JavaScript</h3>
+                    <p>Aprende lo básico para dar vida a tus páginas web.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>El futuro de la Inteligencia Artificial</h3>
+                    <p>Impacto de la IA en el desarrollo.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>Diseño Web Accesible</h3>
+                    <p>Cómo hacer que todos puedan usar tu sitio.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="#">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Festival de Tecnología.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
